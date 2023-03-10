@@ -28,7 +28,7 @@ By conducting stress tests, financial institutions can identify potential vulner
 """)
 
 
-    st.markdown("<h1 style='text-align: center;'>BASEL-I</h1>", unsafe_allow_html=True)
+    st.markdown("<h1 style='text-align: center;'>Method of Stress Testing</h1>", unsafe_allow_html=True)
     st.write(""""
 
 There are different methods of stress testing, each of which uses a different approach to simulate the impact of adverse scenarios on financial institutions' portfolios or balance sheets. Here are some examples of stress testing methods:

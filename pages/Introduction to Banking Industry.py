@@ -2,7 +2,7 @@ import streamlit as st
 
 # Define a list of options
 options = ["BASEL-I", "BASEL-II", "BASEL-III", "Tier-1 Capital", "Tier-2 Capital","Nano Lending", "Shadow Banking","For Niladri Only"
-          ,"Capital"]
+          ,"Capital","Calculation of EPS"]
 
 # Add the options to the sidebar
 option = st.sidebar.selectbox("Select a Topic", options)
@@ -265,6 +265,23 @@ elif option == "Tier-2 Capital":
           Overall, hybrid securities offer a way for companies to raise capital while still maintaining some flexibility in their financial structure. They have both debt and equity characteristics, which can make them attractive to investors who are looking for a mix of fixed income and equity-like participation. However, they are subject to regulatory restrictions and can be more complex than traditional debt or equity instruments.
 Overall, Tier 2 capital provides additional cushioning to a bank's capital structure and helps to absorb losses in the event of financial distress. However, Tier 2 capital is considered less reliable than Tier 1 capital and is subject to more regulatory restrictions.
     """)
+
+elif option == "Calculation of EPS":
+    
+    st.markdown("<h1 style='text-align: center;'>Earnings Per Share</h1>", unsafe_allow_html=True)
+    st.write("""    EPS stands for earnings per share and is a financial ratio that measures a company's profit per outstanding share of its common stock. It is calculated by dividing the company's net income by the number of outstanding shares of common stock.
+
+Here is an example of how to calculate EPS:
+
+Assume ABC Company has a net income of $1 million for the year and has 500,000 outstanding shares of common stock.
+
+EPS = Net income / Number of outstanding shares
+
+EPS = $1,000,000 / 500,000
+
+EPS = $2.00
+
+This means that ABC Company earned $2.00 in profit for every outstanding share of common stock. EPS is a commonly used financial ratio that is used to evaluate a company's profitability and is often used by investors to compare different companies within an industry. A higher EPS indicates that a company is more profitable on a per-share basis, which can be an indicator of a company's financial health and future growth potential.      
 else:
     st.write("This is BASEL-III")
 

@@ -7,11 +7,82 @@ import json
 
 
 # Define a list of options
-options = ["IncoTerms-2020"]
+options = ["IncoTerms-2020","Letter of Credit"]
 
 # Add the options to the sidebar
 option = st.sidebar.selectbox("Select a Topic", options)
 
+if option=="Letter of Credit":
+  st.markdown("<h1 style='text-align: center;'>Letter of Credit</h1>", unsafe_allow_html=True)
+  st.write("""
+  
+  A letter of credit or LC is a written document issued by the importer’s bank (opening bank) on importer’s behalf. Through its issuance, the exporter is assured that the issuing bank will make a payment to the exporter for the international trade conducted between both the parties.
+
+The importer is the applicant of the LC, while the exporter is the beneficiary. In an LC, the issuing bank promises to pay the mentioned amount as per the agreed timeline and against specified documents.
+
+A guiding principle of an LC is that the issuing bank will make the payment based solely on the documents presented, and they are not required to physically ensure the shipping of the goods. If the documents presented are in accord with the terms and conditions of the LC, the bank has no reason to deny the payment.
+  """)
+  st.markdown("<h1 style='text-align: center;'>Features / Characteristics of letter of credit</h1>", unsafe_allow_html=True)
+  st.write("""
+  A letter of credit is identified by certain principles. These principles remain the same for all kinds of letters of credit. The main characteristics of letters of credit are as follows:
+
+    1.  Negotiability
+A letter of credit is a transactional deal, under which the terms can be modified/changed at the parties assent. In order to be negotiable, a letter of credit should include an unconditional promise of payment upon demand or at a particular point in time.
+
+    2.  Revocability
+A letter of credit can be revocable or irrevocable. Since a revocable letter of credit cannot be confirmed, the duty to pay can be revoked at any point of time. In an irrevocable letter of credit, all the parties hold power, it cannot be changed/modified without the agreed consent of all the people.
+
+    3.  Transfer and Assignment
+A letter of credit can be transferred, also the beneficiary has the right to transfer/assign the LC. The LC will remain effective no matter how many times the beneficiary assigns/transfers the LC.
+
+    4.  Sight & Time Drafts
+The beneficiary will only receive the payment upon maturity of letter of credit from the issuing bank when he presents all the drafts & the necessary documents.
+  
+  """)
+  st.markdown("<h1 style='text-align: center;'>Documents required for a Letter of Credit</h1>", unsafe_allow_html=True)
+  st.write("""
+  
+        1.  Shipping Bill of Lading
+        2.  Airway Bill
+        3.  Commercial Invoice
+        4.  Insurance Certificate
+        5.  Certificate of Origin
+        6.  Packing List
+        7.  Certificate of Inspection
+        
+        """)
+  
+  st.markdown("<h1 style='text-align: center;'>Parties involved in an LC</h1>", unsafe_allow_html=True)
+  st.write("""
+    Main parties involved:
+
+      1.  Applicant :
+        An applicant (buyer) is a person who requests his bank to issue a letter of credit.
+
+      2.  Beneficiary :
+        A beneficiary is basically the seller who receives his payment under the process.
+        
+      3.  Issuing bank :
+        The issuing bank (also called an opening bank) is responsible for issuing the letter of credit at the request of the buyer.
+        
+      4.  Advising bank:
+        The advising bank is responsible for the transfer of documents to the issuing bank on behalf of the exporter and is generally located in the country of the exporter.
+
+      Other parties involved in an LC arrangement:
+
+      5.  Confirming bank:
+        The confirming bank provides an additional guarantee to the undertaking of the issuing bank. It comes into the picture when the exporter is not satisfied with the assurance of the issuing bank.
+
+      6.  Negotiating bank :
+        The negotiating bank negotiates the documents related to the LC submitted by the exporter. It makes payments to the exporter, subject to the completeness of the documents, and claims reimbursement under the credit.
+      (Note:- Negotiating bank can either be a separate bank or an advising bank)
+
+      7.  Reimbursing bank:
+        The reimbursing bank is where the paying account is set up by the issuing bank. The reimbursing bank honors the claim that settles the negotiation/acceptance/payment coming in through the negotiating bank.
+      
+      8.  Second Beneficiary The second beneficiary is one who can represent the original beneficiary in their absence. In such an eventuality, the exporter’s credit gets transferred to the second beneficiary, subject to the terms of the transfer.
+      
+      """)
 
 if option == "IncoTerms-2020":
   st.markdown("<h1 style='text-align: center;'>IncoTerms-2020</h1>", unsafe_allow_html=True)
@@ -81,6 +152,57 @@ It's important to note that Incoterms do not cover all aspects of international 
     Under this term, the seller delivers the goods to a named place at the destination, and is responsible for all costs and risks associated with transporting the goods to that point. The buyer assumes the risk from the point the goods are unloaded at the named place.
   7. DDP (Delivered Duty Paid): 
     This term carries the highest level of risk for the buyer, as the seller is responsible for delivering the goods to the destination and paying all associated costs, including customs duties and taxes. The buyer assumes the risk only when the goods are made available at the destination.
+  """)
+  st.markdown("<h3 style='text-align: center;'>Process of Issung LC </h3>", unsafe_allow_html=True)
+  
+  st,image('https://images.ctfassets.net/vkoe68wv76dt/7t4GJfpPwSzOd9wDIQzGxJ/8d00935317e93f11ddc5cbfd2fce4456/Letter_of_Credit_-_Process_Flow_Chart__1___1_.png',caption="process of LC")
+  
+  st.write(""""
+  
+The process of getting an LC consists of four primary steps, which are enlisted here:
+
+Step 1 - Issuance of LC
+  After the parties to the trade agree on the contract and the use of LC, the importer applies to the issuing bank to issue an LC in favor of the exporter. The LC is sent by the issuing bank to the advising bank. The latter is generally based in the exporter’s country and may even be the exporter’s bank. The advising bank (confirming bank) verifies the authenticity of the LC and forwards it to the exporter.
+
+Step 2 - Shipping of goods
+  After receipt of the LC, the exporter is expected to verify the same to their satisfaction and initiate the goods shipping process.
+
+Step 3 - Providing Documents to the confirming bank
+  After the goods are shipped, the exporter (either on their own or through the freight forwarders) presents the documents to the advising/confirming bank.
+
+Step 4 - Settlement of payment from importer and possession of goods
+  The bank, in turn, sends them to the issuing bank and the amount is paid, accepted, or negotiated, as the case may be. The issuing bank verifies the documents and obtains payment from the importer. It sends the documents to the importer, who uses them to get possession of the shipped goods.
+  
+  
+  Example of Issuing LC:
+  
+  Suppose Mr A (an Indian Exporter) has a contract with Mr B (an importer from the US) for sending a shipment of goods. Both parties being unknown to each other decide to go for an LC arrangement.
+
+The letter of credit assures Mr A that he will receive the payment from the buyer and Mr B that he will have a systematic and documented process along with the evidence of goods having been shipped.
+
+From this point on, this is how a letter of credit transaction would unveil between Mr A & Mr B:-
+
+Mr B (buyer) goes to his bank that is the issuing bank (also called an opening bank) and issues a Letter of Credit.
+
+The issuing bank further processes the LC to the advising bank (Mr A's bank).
+
+The advising bank checks the authenticity of the LC and sends it to Mr A.
+
+Now that Mr A has received the confirmation he will ship the goods and while doing so he will receive a Bill of Lading along with other necessary documents.
+
+Further, he will send these documents to the negotiating bank.
+
+The negotiating bank will make sure that all necessary requirements are fulfilled and accordingly make the payment to Mr A (the seller).
+
+Additionally, the negotiating bank will send all the necessary documents to the issuing bank.
+
+Which again the issuing bank will send to Mr B (Buyer) to confirm the authenticity.
+
+Once Mr B has confirmed he will make the payment to the issuing bank.
+
+And the issuing bank will pass on the funds to the negotiating bank.
+
+
   """)
   st.markdown("<h3 style='text-align: center;'>The seven Incoterms® 2020 rules for any mode(s) of transport are: </h3>", unsafe_allow_html=True)
   

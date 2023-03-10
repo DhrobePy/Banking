@@ -282,6 +282,7 @@ EPS = $1,000,000 / 500,000
 EPS = $2.00
 
 This means that ABC Company earned $2.00 in profit for every outstanding share of common stock. EPS is a commonly used financial ratio that is used to evaluate a company's profitability and is often used by investors to compare different companies within an industry. A higher EPS indicates that a company is more profitable on a per-share basis, which can be an indicator of a company's financial health and future growth potential.      
+""")
 else:
     st.write("This is BASEL-III")
 

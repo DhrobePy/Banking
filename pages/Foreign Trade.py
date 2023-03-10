@@ -83,6 +83,57 @@ The beneficiary will only receive the payment upon maturity of letter of credit 
       8.  Second Beneficiary The second beneficiary is one who can represent the original beneficiary in their absence. In such an eventuality, the exporter’s credit gets transferred to the second beneficiary, subject to the terms of the transfer.
       
       """)
+  st.markdown("<h3 style='text-align: center;'>Process of Issung LC </h3>", unsafe_allow_html=True)
+  
+  st.image('https://images.ctfassets.net/vkoe68wv76dt/7t4GJfpPwSzOd9wDIQzGxJ/8d00935317e93f11ddc5cbfd2fce4456/Letter_of_Credit_-_Process_Flow_Chart__1___1_.png',caption="process of LC")
+  
+  st.write(""""
+  
+The process of getting an LC consists of four primary steps, which are enlisted here:
+
+Step 1 - Issuance of LC
+  After the parties to the trade agree on the contract and the use of LC, the importer applies to the issuing bank to issue an LC in favor of the exporter. The LC is sent by the issuing bank to the advising bank. The latter is generally based in the exporter’s country and may even be the exporter’s bank. The advising bank (confirming bank) verifies the authenticity of the LC and forwards it to the exporter.
+
+Step 2 - Shipping of goods
+  After receipt of the LC, the exporter is expected to verify the same to their satisfaction and initiate the goods shipping process.
+
+Step 3 - Providing Documents to the confirming bank
+  After the goods are shipped, the exporter (either on their own or through the freight forwarders) presents the documents to the advising/confirming bank.
+
+Step 4 - Settlement of payment from importer and possession of goods
+  The bank, in turn, sends them to the issuing bank and the amount is paid, accepted, or negotiated, as the case may be. The issuing bank verifies the documents and obtains payment from the importer. It sends the documents to the importer, who uses them to get possession of the shipped goods.
+  
+  
+  Example of Issuing LC:
+  
+  Suppose Mr A (an Indian Exporter) has a contract with Mr B (an importer from the US) for sending a shipment of goods. Both parties being unknown to each other decide to go for an LC arrangement.
+
+The letter of credit assures Mr A that he will receive the payment from the buyer and Mr B that he will have a systematic and documented process along with the evidence of goods having been shipped.
+
+From this point on, this is how a letter of credit transaction would unveil between Mr A & Mr B:-
+
+Mr B (buyer) goes to his bank that is the issuing bank (also called an opening bank) and issues a Letter of Credit.
+
+The issuing bank further processes the LC to the advising bank (Mr A's bank).
+
+The advising bank checks the authenticity of the LC and sends it to Mr A.
+
+Now that Mr A has received the confirmation he will ship the goods and while doing so he will receive a Bill of Lading along with other necessary documents.
+
+Further, he will send these documents to the negotiating bank.
+
+The negotiating bank will make sure that all necessary requirements are fulfilled and accordingly make the payment to Mr A (the seller).
+
+Additionally, the negotiating bank will send all the necessary documents to the issuing bank.
+
+Which again the issuing bank will send to Mr B (Buyer) to confirm the authenticity.
+
+Once Mr B has confirmed he will make the payment to the issuing bank.
+
+And the issuing bank will pass on the funds to the negotiating bank.
+
+
+  """)
 
 if option == "IncoTerms-2020":
   st.markdown("<h1 style='text-align: center;'>IncoTerms-2020</h1>", unsafe_allow_html=True)
@@ -153,57 +204,7 @@ It's important to note that Incoterms do not cover all aspects of international 
   7. DDP (Delivered Duty Paid): 
     This term carries the highest level of risk for the buyer, as the seller is responsible for delivering the goods to the destination and paying all associated costs, including customs duties and taxes. The buyer assumes the risk only when the goods are made available at the destination.
   """)
-  st.markdown("<h3 style='text-align: center;'>Process of Issung LC </h3>", unsafe_allow_html=True)
   
-  st,image('https://images.ctfassets.net/vkoe68wv76dt/7t4GJfpPwSzOd9wDIQzGxJ/8d00935317e93f11ddc5cbfd2fce4456/Letter_of_Credit_-_Process_Flow_Chart__1___1_.png',caption="process of LC")
-  
-  st.write(""""
-  
-The process of getting an LC consists of four primary steps, which are enlisted here:
-
-Step 1 - Issuance of LC
-  After the parties to the trade agree on the contract and the use of LC, the importer applies to the issuing bank to issue an LC in favor of the exporter. The LC is sent by the issuing bank to the advising bank. The latter is generally based in the exporter’s country and may even be the exporter’s bank. The advising bank (confirming bank) verifies the authenticity of the LC and forwards it to the exporter.
-
-Step 2 - Shipping of goods
-  After receipt of the LC, the exporter is expected to verify the same to their satisfaction and initiate the goods shipping process.
-
-Step 3 - Providing Documents to the confirming bank
-  After the goods are shipped, the exporter (either on their own or through the freight forwarders) presents the documents to the advising/confirming bank.
-
-Step 4 - Settlement of payment from importer and possession of goods
-  The bank, in turn, sends them to the issuing bank and the amount is paid, accepted, or negotiated, as the case may be. The issuing bank verifies the documents and obtains payment from the importer. It sends the documents to the importer, who uses them to get possession of the shipped goods.
-  
-  
-  Example of Issuing LC:
-  
-  Suppose Mr A (an Indian Exporter) has a contract with Mr B (an importer from the US) for sending a shipment of goods. Both parties being unknown to each other decide to go for an LC arrangement.
-
-The letter of credit assures Mr A that he will receive the payment from the buyer and Mr B that he will have a systematic and documented process along with the evidence of goods having been shipped.
-
-From this point on, this is how a letter of credit transaction would unveil between Mr A & Mr B:-
-
-Mr B (buyer) goes to his bank that is the issuing bank (also called an opening bank) and issues a Letter of Credit.
-
-The issuing bank further processes the LC to the advising bank (Mr A's bank).
-
-The advising bank checks the authenticity of the LC and sends it to Mr A.
-
-Now that Mr A has received the confirmation he will ship the goods and while doing so he will receive a Bill of Lading along with other necessary documents.
-
-Further, he will send these documents to the negotiating bank.
-
-The negotiating bank will make sure that all necessary requirements are fulfilled and accordingly make the payment to Mr A (the seller).
-
-Additionally, the negotiating bank will send all the necessary documents to the issuing bank.
-
-Which again the issuing bank will send to Mr B (Buyer) to confirm the authenticity.
-
-Once Mr B has confirmed he will make the payment to the issuing bank.
-
-And the issuing bank will pass on the funds to the negotiating bank.
-
-
-  """)
   st.markdown("<h3 style='text-align: center;'>The seven Incoterms® 2020 rules for any mode(s) of transport are: </h3>", unsafe_allow_html=True)
   
   st.image('https://myseatime.com/blogadm/wp-content/uploads/2015/12/Incoterms-mode-of-transport.jpg', caption="Mode of Transport")

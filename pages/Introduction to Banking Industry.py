@@ -26,12 +26,15 @@ if option == "BASEL-I":
 """)
     
     st.write("""
+    
     Tier-1 Capital:
-    Tier 1 capital is the core measure of a bank's financial strength and consists of capital that can absorb losses without a bank being required to       cease operations. The components of Tier 1 capital include:
+        Tier 1 capital is the core measure of a bank's financial strength and consists of capital that can absorb losses without a bank being required to       cease operations. The components of Tier 1 capital include:
     
-    Common Equity Tier 1 (CET1): CET1 includes a bank's common stock and retained earnings, as well as other comprehensive income. CET1 is considered the highest quality form of capital because it is fully loss-absorbing and is not subject to any restrictions on distributions or redemptions.
+        1.Common Equity Tier 1 (CET1): 
+            CET1 includes a bank's common stock and retained earnings, as well as other comprehensive income. CET1 is considered the highest quality form of capital because it is fully loss-absorbing and is not subject to any restrictions on distributions or redemptions.
     
-    Additional Tier 1 capital: Additional Tier 1 capital includes instruments that can absorb losses but are more risky than CET1, such as perpetual preferred stock and contingent convertible bonds (CoCos). These instruments have features that allow them to be written down or converted to equity if the bank's capital falls below a certain level.
+        2.Additional Tier 1 capital: 
+            Additional Tier 1 capital includes instruments that can absorb losses but are more risky than CET1, such as perpetual preferred stock and contingent convertible bonds (CoCos). These instruments have features that allow them to be written down or converted to equity if the bank's capital falls below a certain level.
     
     Both CET1 and Additional Tier 1 capital are considered high-quality capital because they can absorb losses without causing a bank to become insolvent. Tier 1 capital is used to absorb losses before Tier 2 capital, which is a lower-quality form of capital.Overall, Tier 1 capital provides a measure of a bank's ability to withstand losses and continue operating without the need for external support. It is a key metric for regulators and investors in assessing a bank's financial strength and stability.
     

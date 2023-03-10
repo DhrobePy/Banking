@@ -38,7 +38,7 @@ The main drawback of Basel I was that it did not take into account the varying d
 elif option == "BASEL-II":
     st.write("This is option 2.")
     
-elif option == "Tier-I Capital":
+elif option == "Tier-1 Capital":
     st.write("""
     
     Tier-1 Capital:

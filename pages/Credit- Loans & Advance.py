@@ -79,7 +79,32 @@ It's worth noting that not all of these ratios will be relevant for every compan
                         Cash Ratio = $30,000 / $50,000 = 0.6
 
             This means the company has $0.6 of cash and cash equivalents for every $1 of current liabilities, which may indicate a lower level of short-term liquidity.
+    4. Operating Cash Flow :
     
+            Operating cash flow is a measure of the cash that a company generates from its core business operations, and it is a key component of a company's cash flow statement. It reflects the amount of cash a company has available for investments, debt payments, and dividends after accounting for its operating expenses.
+
+            Here is an example of how to calculate operating cash flow:
+
+            Assume that a company has the following information for the year:
+
+                    .   Net income: $100,000
+                    .   Depreciation expense: $20,000
+                    .   Increase in accounts receivable: $10,000
+                    .   Decrease in inventory: $5,000
+                    .   Increase in accounts payable: $8,000
+                    .   Income tax expense: $15,000
+            To calculate the company's operating cash flow, we start with the net income figure and add back any non-cash expenses and any changes in working capital that did not involve cash:
+
+                Operating cash flow = Net income + Depreciation expense - Increase in accounts receivable + Decrease in inventory + Increase in accounts payable - Income tax expense
+
+                = $100,000 + $20,000 - $10,000 + $5,000 + $8,000 - $15,000
+
+                = $108,000
+
+            This means that the company generated $108,000 of cash from its operating activities during the year.
+
+            It's worth noting that operating cash flow can provide valuable insight into a company's ability to generate cash from its core operations. However, it's important to compare a company's operating cash flow to its net income and other financial metrics to get a more complete picture of its financial health.
+
     """)
 
 if option == "EPS":

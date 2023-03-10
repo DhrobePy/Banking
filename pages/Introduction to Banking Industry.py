@@ -48,17 +48,22 @@ elif option == "Tier-1 Capital":
     
     st.markdown("<h1 style='text-align: center;'>Tier-1 Capital</h1>", unsafe_allow_html=True)
     st.write("""
-    
-    Tier-1 Capital:
-        Tier 1 capital is the core measure of a bank's financial strength and consists of capital that can absorb losses without a bank being required to       cease operations. The components of Tier 1 capital include:
-    
-        1.Common Equity Tier 1 (CET1): 
-            CET1 includes a bank's common stock and retained earnings, as well as other comprehensive income. CET1 is considered the highest quality form of capital because it is fully loss-absorbing and is not subject to any restrictions on distributions or redemptions.
-    
-        2.Additional Tier 1 capital: 
-            Additional Tier 1 capital includes instruments that can absorb losses but are more risky than CET1, such as perpetual preferred stock and contingent convertible bonds (CoCos). These instruments have features that allow them to be written down or converted to equity if the bank's capital falls below a certain level.
-    
-    Both CET1 and Additional Tier 1 capital are considered high-quality capital because they can absorb losses without causing a bank to become insolvent. Tier 1 capital is used to absorb losses before Tier 2 capital, which is a lower-quality form of capital.Overall, Tier 1 capital provides a measure of a bank's ability to withstand losses and continue operating without the need for external support. It is a key metric for regulators and investors in assessing a bank's financial strength and stability.
+    The components of Tier 1 capital in Bangladesh are similar to those of other countries and include the following:
+
+Common Equity: Common equity represents the funds invested in the bank by its shareholders and is the most important component of Tier 1 capital. Common equity includes the value of the bank's common stock, additional paid-in capital, and retained earnings.
+For example, Eastern Bank Limited, one of the largest commercial banks in Bangladesh, reported a total common equity of BDT 20.37 billion as of December 31, 2020.
+
+Retained Earnings: Retained earnings represent the portion of the bank's profits that have been retained and not paid out as dividends to shareholders. This component is critical as it provides a source of internal financing for the bank's operations and helps to support growth and expansion.
+For example, BRAC Bank Limited, a leading commercial bank in Bangladesh, reported retained earnings of BDT 21.26 billion as of December 31, 2020.
+
+Disclosed Reserves: Disclosed reserves are reserves that have been set aside by the bank for specific purposes, such as to cover potential losses or to meet regulatory requirements. These reserves are typically disclosed in the bank's financial statements and can be used to absorb unexpected losses or to strengthen the bank's capital position.
+For example, Dutch-Bangla Bank Limited, one of the largest private commercial banks in Bangladesh, reported disclosed reserves of BDT 10.12 billion as of December 31, 2020.
+
+Non-cumulative Perpetual Preferred Stock: This represents a type of preferred stock that does not require the bank to pay dividends that have been deferred in the past. This component provides the bank with additional flexibility in managing its capital position.
+For example, Prime Bank Limited, a leading commercial bank in Bangladesh, issued non-cumulative perpetual preferred stock worth BDT 2 billion in 2019 to strengthen its Tier 1 capital position.
+
+In summary, the components of Tier 1 capital in Bangladesh include common equity, retained earnings, disclosed reserves, and non-cumulative perpetual preferred stock. These components provide the bank with a strong cushion against potential losses and help ensure its safety and soundness.
+
     
     """)
     st.markdown("<h2 style='text-align: center;'>Components of Tier-1 Capital</h2>", unsafe_allow_html=True)

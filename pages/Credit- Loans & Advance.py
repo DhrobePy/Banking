@@ -40,6 +40,47 @@ if option=="Ratio of Financial Statement":
 It's worth noting that not all of these ratios will be relevant for every company or industry. The choice of which ratios to use will depend on the specific context and purpose of the analysis.
     
     """)
+    st.markdown("<h2 style='text-align: center;'>Liquidity Ratio</h2>", unsafe_allow_html=True)
+    st.write("""
+    
+    Liquidity ratios are a group of financial ratios that measure a company's ability to pay off its short-term obligations with its current assets. Here are a few examples of liquidity ratios and how they can be calculated:
+
+    1.  Current Ratio:
+            The current ratio compares a company's current assets to its current liabilities. It measures a company's ability to pay off its short-term debts with its current assets.
+            
+            Formula: Current Ratio = Current Assets / Current Liabilities
+
+            Example: Let's say a company has current assets of $100,000 and current liabilities of $50,000. The current ratio would be:
+
+                        Current Ratio = $100,000 / $50,000 = 2
+
+            This means the company has $2 of current assets for every $1 of current liabilities, which indicates good short-term liquidity.
+
+    2.  Quick Ratio:
+    
+            The quick ratio, also known as the acid-test ratio, is a more conservative measure of liquidity that excludes inventory from current assets. It measures a company's ability to pay off its short-term debts with its most liquid assets.
+            
+            Formula: Quick Ratio = (Current Assets - Inventory) / Current Liabilities
+
+            Example: Let's say a company has current assets of $100,000, inventory of $20,000, and current liabilities of $50,000. The quick ratio would be:
+
+                        Quick Ratio = ($100,000 - $20,000) / $50,000 = 1.6
+
+            This means the company has $1.6 of highly liquid assets for every $1 of current liabilities, which indicates decent short-term liquidity.
+
+    3.  Cash Ratio:
+    
+            The cash ratio is the most conservative liquidity ratio, as it only takes into account a company's cash and cash equivalents. It measures a company's ability to pay off its short-term debts with its cash reserves.
+            
+            Formula: Cash Ratio = Cash and Cash Equivalents / Current Liabilities
+
+            Example: Let's say a company has cash and cash equivalents of $30,000 and current liabilities of $50,000. The cash ratio would be:
+
+                        Cash Ratio = $30,000 / $50,000 = 0.6
+
+            This means the company has $0.6 of cash and cash equivalents for every $1 of current liabilities, which may indicate a lower level of short-term liquidity.
+    
+    """)
 
 if option == "EPS":
     

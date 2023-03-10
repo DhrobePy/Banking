@@ -96,7 +96,7 @@ It's important to note that Incoterms do not cover all aspects of international 
     Note: the DPU Incoterms replaces the old DAT, with additional requirements for the seller to unload the goods from the arriving means of transport. 
 
 """)
-   st.markdown("<h4 style='text-align: center;'>The four Incoterms® 2020 rules for Sea and Inland Waterway Transport are:  </h4>", unsafe_allow_html=True)
+st.markdown("<h4 style='text-align: center;'>The four Incoterms® 2020 rules for Sea and Inland Waterway Transport are:  </h4>", unsafe_allow_html=True)
 
 st.write("""
      FAS - Free Alongside Ship (insert name of port of loading) 

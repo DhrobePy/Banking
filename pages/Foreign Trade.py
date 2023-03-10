@@ -7,11 +7,23 @@ import json
 
 
 # Define a list of options
-options = ["IncoTerms-2020","Letter of Credit", "Types of LC"]
+options = ["IncoTerms-2020","Letter of Credit", "Types of LC","Minimizing Risk"]
 
 # Add the options to the sidebar
 option = st.sidebar.selectbox("Select a Topic", options)
 
+if option=="Minimizing Risk":
+  st.markdown("<h1 style='text-align: center;'>Minimizing Risk in LC </h1>", unsafe_allow_html=True)
+  st.write("""
+  
+  In finance, hedging, arbitrage, and speculation are three different strategies used by investors and traders to manage risk and make profits. Here's a brief explanation of each strategy:
+
+Hedging: Hedging is a risk management strategy that involves taking an offsetting position to a primary investment with the aim of reducing the risk of loss. The primary investment may be subject to price fluctuations or other risks, so a hedging position is taken to reduce or eliminate those risks. Hedging can be done using derivatives such as futures, options, and swaps.
+Arbitrage: Arbitrage is a strategy that involves taking advantage of price discrepancies in different markets to make a profit. An arbitrageur buys an asset in one market and sells it in another market where the price is higher, making a profit from the price difference. Arbitrage opportunities usually arise due to inefficiencies in the market, and the strategy requires quick execution and a thorough understanding of market conditions.
+Speculation: Speculation is a strategy that involves taking a position in an asset with the aim of profiting from price movements. Unlike hedging, speculation is a high-risk strategy that is not focused on risk management but on profit maximization. Speculators use a range of techniques, such as technical analysis, fundamental analysis, and market sentiment analysis, to identify potential price movements and take positions accordingly.
+Overall, these strategies are used by traders and investors in different ways, and each strategy has its own risks and rewards.
+  
+  """)
 
 if option=="Types of LC":
   st.markdown("<h1 style='text-align: center;'>Types of LC</h1>", unsafe_allow_html=True)

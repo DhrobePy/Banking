@@ -15,4 +15,4 @@ if st.sidebar.button("Add"):
     add_option(new_option)
 
 # Display the list of options in the main content area
-st.sidebar.radio(options)
+st.sidebar.radio("Topics",options)

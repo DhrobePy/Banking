@@ -1,8 +1,52 @@
 import streamlit as st
-options = ["Ratio of Financial Statement","EPS"]
+options = ["Ratio of Financial Statement","EPS", "Cash Cycle"]
 # Add the options to the sidebar
 option = st.sidebar.selectbox("Select a Topic", options)
 
+
+if option=="Cash Cycle":
+    st.markdown("<h1 style='text-align: center;'>Calculation of Cash Cycle</h1>", unsafe_allow_html=True)
+    st.write("""
+    
+    The cash cycle of a trading business is the length of time it takes to convert its inventory and other current assets into cash. It measures the time it takes for a business to pay for inventory, sell it, and collect payment from customers. To calculate the cash cycle, you need to follow these steps:
+
+        .   Determine the days inventory outstanding (DIO): This measures the average number of days it takes for the business to sell its inventory.
+                DIO = (Average Inventory / Cost of Goods Sold) x 365
+
+        .   Determine the days payable outstanding (DPO): This measures the average number of days it takes for the business to pay its suppliers.
+                DPO = (Accounts Payable / Cost of Goods Sold) x 365
+
+        .   Determine the days sales outstanding (DSO): This measures the average number of days it takes for the business to collect payment from its customers.
+                DSO = (Accounts Receivable / Sales) x 365
+
+        .   Calculate the cash cycle: This is the number of days it takes for the business to convert its inventory and other current assets into cash.
+                Cash Cycle = DIO + DSO - DPO
+
+
+For example, let's say a trading business has the following financial information:
+
+            .   Average Inventory: $50,000
+            .   Cost of Goods Sold: $200,000
+            .   Accounts Payable: $25,000
+            .   Sales: $300,000
+            .   Accounts Receivable: $40,000
+Using the above formula, we can calculate the cash cycle as follows:
+
+            .   DIO = ($50,000 / $200,000) x 365 = 91.25 days
+            .   DPO = ($25,000 / $200,000) x 365 = 45.63 days
+            .   DSO = ($40,000 / $300,000) x 365 = 48.33 days
+
+            .   Cash Cycle = 91.25 + 48.33 - 45.63 = 93.95 days
+
+    Therefore, it takes the trading business approximately 94 days to convert its inventory and other current assets into cash. This information can be useful in managing the business's working capital and cash flow.
+
+
+
+    """)
+    
+    
+    
+    
 if option=="Ratio of Financial Statement":
     st.markdown("<h1 style='text-align: center;'>Ratio's of a Financial Statement</h1>", unsafe_allow_html=True)
     st.write("""

@@ -121,7 +121,7 @@ st.write("""
      """)
 
 
-elif option =="Shadow Banking":
+else:
   st.markdown("<h4 style='text-align: center;'>Shadow Banking </h4>", unsafe_allow_html=True)
 
   st.write("""

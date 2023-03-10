@@ -23,25 +23,32 @@ if option == "BASEL-I":
         2. Risk Weighted Assets: Basel I classified assets into five risk categories and assigned them risk weights ranging from 0% to 100%. The risk weights were used to calculate the amount of capital a bank was required to hold against its assets.
         3. Uniform Standards: Basel I established uniform standards for banks across different countries, which helped to level the playing field and promote fair competition.
         
-
-
-                                                            Tier-1 Capital:
+""")
+    
+    st.write("""
+    Tier-1 Capital:
     Tier 1 capital is the core measure of a bank's financial strength and consists of capital that can absorb losses without a bank being required to       cease operations. The components of Tier 1 capital include:
-
+    
     Common Equity Tier 1 (CET1): CET1 includes a bank's common stock and retained earnings, as well as other comprehensive income. CET1 is considered the highest quality form of capital because it is fully loss-absorbing and is not subject to any restrictions on distributions or redemptions.
     
     Additional Tier 1 capital: Additional Tier 1 capital includes instruments that can absorb losses but are more risky than CET1, such as perpetual preferred stock and contingent convertible bonds (CoCos). These instruments have features that allow them to be written down or converted to equity if the bank's capital falls below a certain level.
     
-    Both CET1 and Additional Tier 1 capital are considered high-quality capital because they can absorb losses without causing a bank to become insolvent. Tier 1 capital is used to absorb losses before Tier 2 capital, which is a lower-quality form of capital.
+    Both CET1 and Additional Tier 1 capital are considered high-quality capital because they can absorb losses without causing a bank to become insolvent. Tier 1 capital is used to absorb losses before Tier 2 capital, which is a lower-quality form of capital.Overall, Tier 1 capital provides a measure of a bank's ability to withstand losses and continue operating without the need for external support. It is a key metric for regulators and investors in assessing a bank's financial strength and stability.
+    
+    """)
 
-    Overall, Tier 1 capital provides a measure of a bank's ability to withstand losses and continue operating without the need for external support. It is a key metric for regulators and investors in assessing a bank's financial strength and stability.
 
 
+                                                            
+    st.write("""
+    
     Drawback of BASEL-I:
 The main drawback of Basel I was that it did not take into account the varying degrees of risk within each asset class. This meant that some assets with the same risk weight had very different levels of risk, which led to the underestimation of the actual risk held by banks. In response to this, Basel II was introduced in 2004, which incorporated more sophisticated risk measurement techniques and revised capital requirements.
 
 
             """)
+    
+    
     
     
     

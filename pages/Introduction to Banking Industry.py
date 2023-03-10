@@ -1,7 +1,7 @@
 import streamlit as st
 
 # Define a list of options
-options = ["BASEL-I", "BASEL-II", "BASEL-III", "Tier-1 Capital", "Tier-2 Capital"]
+options = ["BASEL-I", "BASEL-II", "BASEL-III", "Tier-1 Capital", "Tier-2 Capital","Nano Lending"]
 
 # Add the options to the sidebar
 option = st.sidebar.selectbox("Select a Topic", options)
@@ -54,7 +54,24 @@ elif option == "Tier-1 Capital":
     
     """)
 
+elif option== "Nano Lending":
+    st.markdown("<h1 style='text-align: center;'>Nano Lending</h1>", unsafe_allow_html=True)
     
+    st.write("""
+    
+    Nano lending, also known as microfinance or microcredit, is a type of lending that provides small loans to individuals or businesses that do not have access to traditional banking services. The concept of microcredit was first developed by economist Muhammad Yunus in the 1970s in Bangladesh, and it has since become a popular form of lending in developing countries around the world.
+
+The idea behind nano lending is to provide small loans to individuals who lack collateral or a credit history, making it difficult for them to access traditional bank loans. These loans are typically used to start or expand small businesses or to finance basic needs such as housing, education, or healthcare.
+
+In Bangladesh, microcredit has played a significant role in reducing poverty and empowering women. The Grameen Bank, founded by Muhammad Yunus in 1983, has provided microcredit to millions of poor people, especially women, in Bangladesh. The bank operates on the principle of "group lending," where small groups of borrowers are responsible for each other's loans, creating a system of mutual support and accountability.
+
+Another example of nano lending in Bangladesh is BRAC, a development organization that provides microfinance services to poor people in rural areas. BRAC's microfinance program includes not only loans but also savings, insurance, and financial literacy training, creating a comprehensive approach to financial inclusion.
+
+Overall, nano lending has emerged as a powerful tool for poverty reduction and economic empowerment, especially in developing countries. It has helped millions of people to access credit and build their own businesses, improving their standard of living and contributing to economic growth.
+
+
+""")
+
     
     
 else:

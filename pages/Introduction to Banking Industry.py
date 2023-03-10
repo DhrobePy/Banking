@@ -186,8 +186,10 @@ elif option == "Tier-2 Capital":
     st.markdown("<h1 style='text-align: center;'>Tier-2 Capital</h1>", unsafe_allow_html=True)
     st.write("""
     Tier 2 capital is a component of a bank's capital that is considered less reliable than Tier 1 capital but still contributes to its overall capital adequacy. Tier 2 capital includes a range of instruments that can be used to absorb losses in the event of financial distress. Tier 2 capital instruments have longer-term maturities than Tier 1 capital instruments and can be written off or converted to equity in the event of the bank's insolvency.
+""")
 
-The following are some examples of Tier 2 capital instruments:
+    st.write("""
+    The following are some examples of Tier 2 capital instruments:
 
           1. Subordinated debt: 
           Subordinated debt is a type of debt that ranks below senior debt in the event of a liquidation or bankruptcy. It is issued with longer-term           maturities and higher interest rates than senior debt to compensate for the additional risk. Subordinated debt holders are typically paid only after  senior debt holders have been paid in full.

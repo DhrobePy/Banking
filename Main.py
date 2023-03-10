@@ -12,6 +12,8 @@ st.markdown(hide_st_style, unsafe_allow_html=True)
 
 st.title("Banking Terms & Conditions")
 
+st.write("Sidebar for options!!!")
+
 
 # Define a list of radio button options
 options = ["Introduction to Banking ","Genearal Banking", "Credit", "Foreign Trade"]

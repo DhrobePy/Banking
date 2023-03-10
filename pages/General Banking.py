@@ -21,5 +21,5 @@ if st.sidebar.button("Add"):
     add_option(new_option)
 
 # Display the list of options in the main content area
-st.write("Options:", st.session_state.options)
+#st.write("Options:", st.session_state.options)
 

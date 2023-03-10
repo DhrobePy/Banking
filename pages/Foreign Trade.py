@@ -10,7 +10,7 @@ option = st.sidebar.selectbox("Select a Topic", options)
 
 if option == "IncoTerms-2020":
   st.markdown("<h1 style='text-align: center;'>IncoTerms-2020</h1>", unsafe_allow_html=True)
-  st.image('/Incoterms.jpg', caption='Simple Explanation of IncoTerms-2020')
+  st.image('https://github.com/DhrobePy/Banking/blob/main/Incoterms.jpeg', caption='Simple Explanation of IncoTerms-2020')
   
   st.write("""
            Incoterms, or International Commercial Terms, are standardized terms used in international trade to define the responsibilities of buyers and sellers with regard to the delivery of goods. The latest version of Incoterms, Incoterms 2020, came into effect on January 1, 2020. Here is a list of the 11 Incoterms 2020, along with a brief explanation of each:

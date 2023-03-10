@@ -1,7 +1,8 @@
 import streamlit as st
 
 # Define a list of options
-options = ["BASEL-I", "BASEL-II", "BASEL-III", "Tier-1 Capital", "Tier-2 Capital","Nano Lending", "Shadow Banking","For Niladri Only"]
+options = ["BASEL-I", "BASEL-II", "BASEL-III", "Tier-1 Capital", "Tier-2 Capital","Nano Lending", "Shadow Banking","For Niladri Only"
+          ,"Capital"]
 
 # Add the options to the sidebar
 option = st.sidebar.selectbox("Select a Topic", options)
@@ -138,7 +139,18 @@ Microfinance institutions:
 While these shadow banking activities can provide benefits such as increased access to credit and financial services, they can also pose risks to the stability of the financial system. Because they are not subject to the same regulatory oversight as traditional banks, they may engage in riskier activities and have less transparency. Therefore, it is important for regulators to monitor and regulate shadow banking activities to ensure the stability of the financial system.
 
 """)    
+elif option == "Capital":
+    st.markdown("<h4 style='text-align: center;'>Different Types of Capital in Bank </h4>", unsafe_allow_html=True)
+
+    st.write("""
+    Banks typically have various types of capital to meet their regulatory requirements and support their operations. The different types of capital are as follows:
+
+    Tier 1 capital: This is the highest quality capital and consists of common equity and disclosed reserves. Examples of Tier 1 capital in Bangladeshi banks include retained earnings and common shares.
     
+    Tier 2 capital: This is a supplementary capital that includes items such as subordinated debt and undisclosed reserves. Examples of Tier 2 capital in Bangladeshi banks include subordinated bonds and term deposits.
+    
+    Tier 3 capital: This is a short-term capital that can be used to support market risk. Examples of Tier 3 capital in Bangladeshi banks include short-term debt and preference shares.
+    """)
 else:
     st.write("This is BASEL-III")
 

@@ -1,7 +1,7 @@
 import streamlit as st
 
 # Define a list of options
-options = ["BASEL-I", "BASEL-II", "BASEL-III", "Tier-1 Capital", "Tier-2 Capital","Nano Lending"]
+options = ["BASEL-I", "BASEL-II", "BASEL-III", "Tier-1 Capital", "Tier-2 Capital","Nano Lending", "For Niladri Only"]
 
 # Add the options to the sidebar
 option = st.sidebar.selectbox("Select a Topic", options)
@@ -96,7 +96,9 @@ Overall, nano lending has emerged as a powerful tool for poverty reduction and e
 
 """)
 
-    
+elif option == "For Niladri Only":
+    st.markdown("<h1 style='text-align: center;'>Tomar Laigga Banaisi Dada</h1>", unsafe_allow_html=True)
+    st.write("Box a kono topic mone porle add koro, ami add kore nicchi materials")
     
 else:
     st.write("This is BASEL-III")

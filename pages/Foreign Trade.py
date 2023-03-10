@@ -83,6 +83,9 @@ It's important to note that Incoterms do not cover all aspects of international 
     This term carries the highest level of risk for the buyer, as the seller is responsible for delivering the goods to the destination and paying all associated costs, including customs duties and taxes. The buyer assumes the risk only when the goods are made available at the destination.
   """)
   st.markdown("<h3 style='text-align: center;'>The seven Incoterms® 2020 rules for any mode(s) of transport are: </h3>", unsafe_allow_html=True)
+  
+  st.image('https://myseatime.com/blogadm/wp-content/uploads/2015/12/Incoterms-mode-of-transport.jpg', caption="Mode of Transport")
+  
   st.write("""
   
   The seven Incoterms® 2020 rules for any mode(s) of transport are: 

@@ -50,5 +50,29 @@ if option == "IncoTerms-2020":
 It's important to note that Incoterms do not cover all aspects of international trade, such as payment terms and intellectual property rights. They are intended to be a standardized set of terms to help facilitate the delivery of goods, and should be used in conjunction with other relevant trade agreements and contracts.
 
 """)
+  st.markdown("<h2 style='text-align: center;'>IncoTerms Based on Risk on Buyers Part</h2>", unsafe_allow_html=True)
+  st.write("""
+  
+  Here's a list of Incoterms based on the level of risk they carry for the buyer, ranked from least to most risky:
+
+  1. EXW (Ex Works): 
+    This term carries the least amount of risk for the buyer, as the seller's responsibility ends when they make the goods available at their premises. The buyer is responsible for all costs and risks associated with transporting the goods from the seller's premises to the final destination.
+    
+  2. FCA (Free Carrier): 
+    Under this term, the seller delivers the goods to a carrier or a named place, and the buyer assumes the risk from that point onwards. However, the buyer is responsible for arranging and paying for the transportation of the goods from the named place.
+  
+  3. CPT (Carriage Paid To): 
+    Under this term, the seller delivers the goods to a carrier or a named place, and is responsible for the cost of transportation to the destination. However, the buyer assumes the risk from the point the goods are handed over to the carrier.
+
+  4. CIP (Carriage and Insurance Paid To): 
+    This term is similar to CPT, but the seller is also responsible for obtaining insurance for the goods during transportation.
+  5. DAT (Delivered at Terminal): 
+    Under this term, the seller delivers the goods to a named terminal at the destination, and is responsible for all costs and risks associated with transporting the goods to that point. The buyer assumes the risk from the point the goods are unloaded at the terminal.
+
+  6. DAP (Delivered at Place): 
+    Under this term, the seller delivers the goods to a named place at the destination, and is responsible for all costs and risks associated with transporting the goods to that point. The buyer assumes the risk from the point the goods are unloaded at the named place.
+  7. DDP (Delivered Duty Paid): 
+    This term carries the highest level of risk for the buyer, as the seller is responsible for delivering the goods to the destination and paying all associated costs, including customs duties and taxes. The buyer assumes the risk only when the goods are made available at the destination.
+  """)
   
 

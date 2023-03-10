@@ -120,18 +120,18 @@ elif option == "Shadow Banking":
     In Bangladesh, examples of shadow banking activities include microfinance institutions, leasing companies, and non-bank financial institutions. These entities provide credit and other financial services to individuals and businesses, but are not subject to the same regulatory requirements as traditional banks.
 
     
-    Here are some more examples of shadow banking activities and how they work:
+Here are some more examples of shadow banking activities and how they work:
 
-            1. Money market funds: 
+Money market funds: 
                  These are mutual funds that invest in short-term, low-risk securities such as government bonds and commercial paper. They are not considered banks, but they operate like banks by taking deposits from investors and using the funds to make investments. Money market funds are typically used by investors as a safe place to park their cash, but they are not insured by the FDIC like bank deposits. In 2008, the Reserve Primary Fund, a money market fund, "broke the buck" due to its exposure to Lehman Brothers' commercial paper, which caused widespread panic in the money market fund industry.
 
-            2. Hedge funds: 
+Hedge funds: 
                 Hedge funds are private investment vehicles that use a variety of investment strategies to generate high returns for their investors. They are not subject to the same regulations as mutual funds, and typically require a large minimum investment. Hedge funds often use leverage (borrowed money) to increase their returns, which can make them more risky. In 1998, Long-Term Capital Management, a hedge fund that used complex derivatives trades, collapsed and had to be bailed out by the Federal Reserve.
 
-            3. Peer-to-peer (P2P) lending: 
+Peer-to-peer (P2P) lending: 
                 P2P lending platforms connect borrowers with individual lenders who are willing to lend money. These platforms use technology to match borrowers with lenders and facilitate the lending process. P2P lending can provide borrowers with access to credit at lower interest rates than traditional banks, but the loans are not insured and the creditworthiness of the borrowers may be harder to assess. In Bangladesh, there are several P2P lending platforms such as iPay and Samadhan.
   
-             4. Microfinance institutions: 
+Microfinance institutions: 
                  Microfinance institutions provide financial services to low-income individuals and small businesses who may not have access to traditional banking services. These services can include loans, savings accounts, and insurance. Microfinance institutions typically charge higher interest rates than traditional banks, but they are often more flexible in their lending practices. In Bangladesh, Grameen Bank is a well-known microfinance institution that has been providing financial services to rural communities for decades.
 
 

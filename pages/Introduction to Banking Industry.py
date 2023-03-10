@@ -30,6 +30,7 @@ if option == "BASEL-I":
     st.write("""
     
     Drawback of BASEL-I:
+    
 The main drawback of Basel I was that it did not take into account the varying degrees of risk within each asset class. This meant that some assets with the same risk weight had very different levels of risk, which led to the underestimation of the actual risk held by banks. In response to this, Basel II was introduced in 2004, which incorporated more sophisticated risk measurement techniques and revised capital requirements.
 
 

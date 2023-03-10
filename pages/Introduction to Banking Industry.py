@@ -2,12 +2,52 @@ import streamlit as st
 
 # Define a list of options
 options = ["BASEL-I", "BASEL-II", "BASEL-III", "Tier-1 Capital", "Tier-2 Capital","Nano Lending", "Shadow Banking","For Niladri Only"
-          ,"Capital","Calculation of EPS"]
+          ,"Capital","Calculation of EPS", "Stress Testing"]
 
 # Add the options to the sidebar
 option = st.sidebar.selectbox("Select a Topic", options)
 
 # Display the selected option
+if option == "Stress Testing":
+    
+    st.markdown("<h1 style='text-align: center;'>Stress Testing</h1>", unsafe_allow_html=True)
+    st.write("""
+    
+    Stress testing is a risk management technique used by financial institutions to evaluate how well their portfolios or balance sheets would perform under adverse scenarios or stress events. These scenarios are designed to be severe and unlikely but still plausible, such as a significant market downturn, a credit crisis, or a major operational failure.
+
+Here's an example of stress testing:
+
+Suppose a bank holds a portfolio of mortgages worth $1 billion, and the bank wants to evaluate how this portfolio would perform under adverse conditions. The bank may design a stress test scenario where there is a significant economic downturn, leading to high unemployment and a sharp decline in housing prices.
+
+Under this scenario, the bank may estimate that a certain percentage of borrowers would default on their mortgages, and that the value of the mortgage portfolio would decline significantly. The bank would then simulate these conditions using financial models and assess the impact on its capital adequacy and profitability.
+
+The bank may find that under this scenario, its capital would be depleted, and it may need to raise additional funds or take other measures to mitigate the losses. Alternatively, the bank may find that its portfolio is resilient and that it would be able to weather the adverse conditions without significant losses.
+
+By conducting stress tests, financial institutions can identify potential vulnerabilities in their portfolios and take appropriate measures to manage risk and improve their resilience to adverse events. Stress testing is an important tool for risk management and is used by regulators and supervisors to ensure the safety and stability of the financial system.
+
+""")
+
+
+    st.markdown("<h1 style='text-align: center;'>BASEL-I</h1>", unsafe_allow_html=True)
+    st.write(""""
+
+There are different methods of stress testing, each of which uses a different approach to simulate the impact of adverse scenarios on financial institutions' portfolios or balance sheets. Here are some examples of stress testing methods:
+
+Scenario analysis: 
+          This method involves designing scenarios that reflect plausible but severe events that could impact the financial institution's portfolios or balance sheets. For example, a bank might design a scenario where interest rates increase suddenly and sharply, leading to a significant increase in loan defaults and a decline in the value of the bank's assets.
+Sensitivity analysis: This method involves testing the impact of changes in individual risk factors on the financial institution's portfolios or balance sheets. For example, a bank might test how changes in interest rates, exchange rates, or commodity prices would impact its profitability and capital adequacy.
+
+Reverse stress testing: 
+          This method involves identifying an extreme adverse scenario and working backward to identify the conditions that would lead to such a scenario. For example, a bank might identify a scenario where it would become insolvent, and then work backward to identify the combination of events that would lead to this outcome.
+          
+Macro stress testing: 
+          This method involves assessing the impact of adverse scenarios on the broader economy and financial system, as well as on individual financial institutions. For example, a regulator might conduct a macro stress test to assess the impact of a severe recession on the banking system, including the potential for systemic risk and contagion.
+          
+Overall, stress testing is an important tool for risk management in the financial sector. By simulating the impact of adverse scenarios, financial institutions can identify potential vulnerabilities and take appropriate measures to mitigate risk and improve their resilience to adverse events.
+
+""")
+
+
 if option == "BASEL-I":
     
     st.markdown("<h1 style='text-align: center;'>BASEL-I</h1>", unsafe_allow_html=True)

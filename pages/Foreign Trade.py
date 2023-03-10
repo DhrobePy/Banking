@@ -74,5 +74,39 @@ It's important to note that Incoterms do not cover all aspects of international 
   7. DDP (Delivered Duty Paid): 
     This term carries the highest level of risk for the buyer, as the seller is responsible for delivering the goods to the destination and paying all associated costs, including customs duties and taxes. The buyer assumes the risk only when the goods are made available at the destination.
   """)
+  st.markdown("<h3 style='text-align: center;'>The seven Incoterms® 2020 rules for any mode(s) of transport are: </h3>", unsafe_allow_html=True)
+  st.write("""
+  
+  The seven Incoterms® 2020 rules for any mode(s) of transport are: 
+
+    EXW - Ex Works (insert place of delivery)
+
+    FCA  - Free Carrier (Insert named place of delivery) 
+
+    CPT  - Carriage Paid to (insert place of destination) 
+
+    CIP -  Carriage and Insurance Paid To (insert place of destination)  
+
+    DAP - Delivered at Place (insert named place of destination)  
+
+    DPU - Delivered at Place Unloaded (insert of place of destination)  
+
+    DDP - Delivered Duty Paid (Insert place of destination).  
+
+    Note: the DPU Incoterms replaces the old DAT, with additional requirements for the seller to unload the goods from the arriving means of transport. 
+
+""")
+   st.markdown("<h4 style='text-align: center;'>The four Incoterms® 2020 rules for Sea and Inland Waterway Transport are:  </h4>", unsafe_allow_html=True)
+
+st.write("""
+     FAS - Free Alongside Ship (insert name of port of loading) 
+
+     FOB - Free on Board (insert named port of loading) 
+
+     CFR - Cost and Freight (insert named port of destination) 
+
+     CIF -  Cost Insurance and Freight (insert named port of destination)
+     
+     """)
   
 

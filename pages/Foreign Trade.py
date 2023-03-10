@@ -7,11 +7,48 @@ import json
 
 
 # Define a list of options
-options = ["IncoTerms-2020","Letter of Credit"]
+options = ["IncoTerms-2020","Letter of Credit", "Types of LC"]
 
 # Add the options to the sidebar
 option = st.sidebar.selectbox("Select a Topic", options)
 
+
+if option=="Types of LC":
+  st.markdown("<h1 style='text-align: center;'>Types of LC</h1>", unsafe_allow_html=True)
+  st.write("""
+
+Following are the most commonly used or known types of letter of credit:-
+
+  1.  Revocable Letter of Credit
+
+  2.  Irrevocable Letter of Credit
+
+  3.  Confirmed Letter of Credit
+
+  4.  Unconfirmed Letter of Credit
+
+  5.  LC at Sight
+
+  6.  Usance LC or Deferred Payment LC
+
+  7.  Back to Back LC
+
+  8.  Transferable Letter of Credit
+
+  9.  Un-transferable Letter of Credit
+
+  10. Standby Letter of Credit
+
+  11. Freely Negotiable Letter of Credit
+
+  12. Revolving Letter of Credit
+
+  13. Red Clause LC
+
+  14. Green Clause LC
+  
+  """)
+  
 if option=="Letter of Credit":
   st.markdown("<h1 style='text-align: center;'>Letter of Credit</h1>", unsafe_allow_html=True)
   st.write("""

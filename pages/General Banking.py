@@ -21,5 +21,5 @@ if st.sidebar.button("Add"):
     add_option(new_option)
 
 # Display the list of options in the main content area
-st.sidebar.radio("Topics:", st.session_state.options)
+st.radio("Topics:", st.session_state.options)
 

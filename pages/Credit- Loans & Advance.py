@@ -155,6 +155,48 @@ It's worth noting that not all of these ratios will be relevant for every compan
         
     """)
     
+    
+    st.markdown("<h2 style='text-align: center;'>Debt Ratio</h2>", unsafe_allow_html=True)
+    st.write("""
+    Debt ratios are financial ratios that measure a company's leverage, or the amount of debt it has relative to its assets or equity. Here are a few examples of debt ratios and how they can be calculated:
+
+        1.  Debt-to-Equity Ratio:
+            The debt-to-equity ratio measures the amount of debt a company has relative to its equity. It shows how much debt a company is using to finance its operations.
+            
+                Formula: 
+                        Debt-to-Equity Ratio = Total Debt / Shareholders' Equity
+                Example: 
+                        Let's say a company has total debt of $1,500,000 and shareholders' equity of $2,000,000. The debt-to-equity ratio would be:
+                            Debt-to-Equity Ratio = $1,500,000 / $2,000,000 = 0.75 or 75%
+                            
+                This means that the company has $0.75 of debt for every $1 of equity.
+                
+                
+        2.  Debt-to-Assets Ratio:
+            The debt-to-assets ratio measures the amount of debt a company has relative to its total assets. It shows the percentage of a company's assets that are financed by debt.
+                Formula: 
+                    Debt-to-Assets Ratio = Total Debt / Total Assets
+                Example: 
+                    Let's say a company has total debt of $1,500,000 and total assets of $4,000,000. The debt-to-assets ratio would be:
+                        Debt-to-Assets Ratio = $1,500,000 / $4,000,000 = 0.375 or 37.5%
+                        
+                 This means that 37.5% of the company's assets are financed by debt.
+
+
+        3.  Interest Coverage Ratio:
+            The interest coverage ratio measures a company's ability to meet its interest obligations on its debt. It shows how many times a company's operating income covers its interest expenses.
+                Formula: 
+                    Interest Coverage Ratio = Operating Income / Interest Expense
+                Example: 
+                    Let's say a company has operating income of $500,000 and interest expense of $50,000. The interest coverage ratio would be:
+                    
+                        Interest Coverage Ratio = $500,000 / $50,000 = 10
+            This means that the company's operating income is 10 times greater than its interest expense, indicating that the company has a strong ability to meet its interest obligations.
+
+            It's worth noting that debt ratios are important indicators of a company's financial health, as high levels of debt can increase a company's financial risk. However, debt ratios should be analyzed in conjunction with other financial ratios and metrics to get a more complete picture of a company's financial situation.
+    
+    """)
+    
 
 if option == "EPS":
     

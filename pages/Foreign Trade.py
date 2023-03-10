@@ -1,5 +1,7 @@
 import streamlit as st
 
+import json
+
 # Define a list of options
 options = ["IncoTerms-2020"]
 
@@ -10,7 +12,14 @@ option = st.sidebar.selectbox("Select a Topic", options)
 
 if option == "IncoTerms-2020":
   st.markdown("<h1 style='text-align: center;'>IncoTerms-2020</h1>", unsafe_allow_html=True)
-  st.image('/DhrobePy/Banking/Incoterms.jpeg', caption='Simple Explanation of IncoTerms-2020')
+  
+  # Load JSON data from a file
+with open('https://github.com/DhrobePy/Banking/blob/5e7633e670cd56077b7d3d22f0ed3ad8071c9109/incoterm.json') as f:
+    data = json.load(f)
+
+# Display the JSON data in a Streamlit component
+st.json(data)
+  st.image('https://github.com/DhrobePy/Banking/blob/5e7633e670cd56077b7d3d22f0ed3ad8071c9109/incoterm.json', caption='Simple Explanation of IncoTerms-2020')
   
   st.write("""
            Incoterms, or International Commercial Terms, are standardized terms used in international trade to define the responsibilities of buyers and sellers with regard to the delivery of goods. The latest version of Incoterms, Incoterms 2020, came into effect on January 1, 2020. Here is a list of the 11 Incoterms 2020, along with a brief explanation of each:

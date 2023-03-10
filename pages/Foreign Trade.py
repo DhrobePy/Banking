@@ -14,11 +14,11 @@ if option == "IncoTerms-2020":
   st.markdown("<h1 style='text-align: center;'>IncoTerms-2020</h1>", unsafe_allow_html=True)
   
   # Load JSON data from a file
-with open('https://github.com/DhrobePy/Banking/blob/5e7633e670cd56077b7d3d22f0ed3ad8071c9109/incoterm.json') as f:
+  with open('https://github.com/DhrobePy/Banking/blob/5e7633e670cd56077b7d3d22f0ed3ad8071c9109/incoterm.json') as f:
     data = json.load(f)
 
 # Display the JSON data in a Streamlit component
-st.json(data)
+  st.json(data)
   st.image('https://github.com/DhrobePy/Banking/blob/5e7633e670cd56077b7d3d22f0ed3ad8071c9109/incoterm.json', caption='Simple Explanation of IncoTerms-2020')
   
   st.write("""

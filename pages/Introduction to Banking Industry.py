@@ -12,12 +12,15 @@ option = st.sidebar.selectbox("Select a Topic", options)
 
 # Display the selected option
 if option == "BASEL-I":
-    st.markdown("<h1 style='text-align: center;'>BASEL-I'</h1>", unsafe_allow_html=True)
+    st.markdown("<h1 style='text-align: center;'>BASEL-I</h1>", unsafe_allow_html=True)
 
-    st.markdown("""
-    #Basel I, also known as the Basel Accord, was developed in 1988 by the Basel Committee on Banking Supervision. The accord aimed to establish a set of international banking standards to ensure banks had enough capital to withstand financial shocks and reduce the risk of bank failures.
+    st.markdown("""<h2 style='word-wrap: break-word; text-align: center;'>
     
-    ##The key features of Basel I include:
+    This is the sub-header that will be wrapped to fit the page width)
+
+    Basel I, also known as the Basel Accord, was developed in 1988 by the Basel Committee on Banking Supervision. The accord aimed to establish a set of international banking standards to ensure banks had enough capital to withstand financial shocks and reduce the risk of bank failures.
+    
+    The key features of Basel I include:
     
         1. Minimum Capital Requirement: Basel I introduced a minimum capital requirement of 8% of a bank's risk-weighted assets. Banks were required to hold this capital in the form of Tier 1 and Tier 2 capital.
         The calculation of CAR under Basel I can be simplified as follows:
@@ -30,7 +33,7 @@ if option == "BASEL-I":
 The main drawback of Basel I was that it did not take into account the varying degrees of risk within each asset class. This meant that some assets with the same risk weight had very different levels of risk, which led to the underestimation of the actual risk held by banks. In response to this, Basel II was introduced in 2004, which incorporated more sophisticated risk measurement techniques and revised capital requirements.
 
 
-             """)
+             </h2>", unsafe_allow_html=True""")
     
     
     

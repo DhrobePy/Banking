@@ -106,6 +106,55 @@ It's worth noting that not all of these ratios will be relevant for every compan
             It's worth noting that operating cash flow can provide valuable insight into a company's ability to generate cash from its core operations. However, it's important to compare a company's operating cash flow to its net income and other financial metrics to get a more complete picture of its financial health.
 
     """)
+    st.markdown("<h2 style='text-align: center;'>Profitablity Ratio</h2>", unsafe_allow_html=True)
+    st.write("""
+    
+    Profitability ratios are a group of financial ratios that measure a company's ability to generate profits relative to its revenue, assets, or equity. Here are a few examples of profitability ratios and how they can be calculated:
+
+    1.  Gross Profit Margin:
+    
+        The gross profit margin measures the percentage of revenue that is left after deducting the cost of goods sold. It shows how much profit a company is generating from each dollar of sales.
+        Formula: 
+                Gross Profit Margin = (Revenue - Cost of Goods Sold) / Revenue
+
+        Example: 
+                Let's say a company has revenue of $1,000,000 and a cost of goods sold of $600,000. The gross profit margin would be:
+
+                Gross Profit Margin = ($1,000,000 - $600,000) / $1,000,000 = 0.4 or 40%
+
+                This means that the company is generating 40 cents of gross profit for every dollar of sales.
+
+    2.  Net Profit Margin:
+    
+        The net profit margin measures the percentage of revenue that is left after deducting all expenses, including taxes and interest. It shows how much profit a company is generating from each dollar of sales after all expenses are taken into account.
+        
+        Formula: 
+                Net Profit Margin = Net Income / Revenue
+
+        Example: 
+                Let's say a company has a net income of $150,000 and revenue of $1,000,000. The net profit margin would be:
+
+                    Net Profit Margin = $150,000 / $1,000,000 = 0.15 or 15%
+
+                This means that the company is generating 15 cents of net profit for every dollar of sales.
+
+    3.  Return on Equity (ROE):
+    
+        The return on equity measures the amount of net income a company generates for each dollar of equity. It shows how effectively a company is using its equity to generate profits.
+        Formula: 
+                Return on Equity = Net Income / Shareholders' Equity
+
+        Example: 
+                Let's say a company has a net income of $150,000 and shareholders' equity of $1,000,000. The return on equity would be:
+
+                    Return on Equity = $150,000 / $1,000,000 = 0.15 or 15%
+
+                This means that the company is generating 15 cents of net income for each dollar of shareholders' equity.
+
+        It's worth noting that profitability ratios are important indicators of a company's financial health and are often used by investors and analysts to evaluate a company's performance. However, they should be analyzed in conjunction with other financial ratios and metrics to get a more complete picture of a company's financial situation.
+        
+    """)
+    
 
 if option == "EPS":
     

@@ -8,8 +8,7 @@ option = st.sidebar.selectbox("Select a Topic", options)
 
 # Display the selected option
 if option == "BASEL-I":
-    BASEL-I()
-def BASEL-I():
+    
     st.markdown("<h1 style='text-align: center;'>BASEL-I</h1>", unsafe_allow_html=True)
     st.write("""
     Basel I, also known as the Basel Accord, was developed in 1988 by the Basel Committee on Banking Supervision. The accord aimed to establish a set of international banking standards to ensure banks had enough capital to withstand financial shocks and reduce the risk of bank failures.  

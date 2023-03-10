@@ -1,14 +1,10 @@
 import streamlit as st
-st.write("Welcome to the Loans and Advance section of our learning path")
-
 options = ["Ratio of Financial Statement","EPS"]
-
 # Add the options to the sidebar
 option = st.sidebar.selectbox("Select a Topic", options)
 
-
 if option=="Ratio of Financial Statement":
-    
+    st.markdown("<h1 style='text-align: center;'>Ratio's of a Financial Statement</h1>", unsafe_allow_html=True)
     st.write("""
     Here is a list of some of the most common financial ratios that can be calculated from a company's financial statement:
 

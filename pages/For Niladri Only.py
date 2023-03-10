@@ -1,3 +1,5 @@
+import streamlit as st
+
 def get_list():
     if 'my_list' not in st.session_state:
         # Initialize the list if it doesn't exist in session state

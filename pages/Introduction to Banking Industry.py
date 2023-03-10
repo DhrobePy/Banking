@@ -35,12 +35,7 @@ The main drawback of Basel I was that it did not take into account the varying d
 
 
             """)
-    
-    
-    
-    
-    
-    
+      
 elif option == "BASEL-II":
     st.write("This is option 2.")
     
@@ -82,6 +77,31 @@ In summary, the components of Tier 1 capital in Bangladesh include common equity
 
     Overall, CET1 capital is a key measure of a bank's financial strength and is used by regulators to assess a bank's ability to absorb losses. The components of CET1 capital represent the highest quality form of capital because they are fully loss-absorbing and can be used to absorb losses without causing the bank to become insolvent.
     
+    """)
+    st.markdown("<h2 style='text-align: center;'>Equity Capital</h2>", unsafe_allow_html=True)
+    st.write("""
+    Equity capital is the portion of a company's capital that represents the ownership interest of its shareholders. Equity capital is raised by issuing common stock or preferred stock to investors in exchange for their investment in the company. The funds raised through equity capital are used by the company to finance its operations, invest in new projects, or to pay off debt.
+
+The key features of equity capital are as follows:
+
+          No fixed payments: Equity capital does not require any fixed payments to be made to shareholders, unlike debt financing. Instead, shareholders receive returns in the form of dividends or capital appreciation.
+          No maturity date: Equity capital does not have a maturity date, which means that there is no obligation to repay the capital to investors. As long as the company is in operation, the equity capital remains invested in the company.
+          Ownership stake: Shareholders who invest in equity capital become part-owners of the company and have voting rights in important company decisions.
+          Risk and return: Equity capital is considered a higher risk investment than debt financing, but it also has the potential for higher returns if the company performs well.
+          Equity capital is an important component of a company's capital structure and plays a crucial role in its growth and expansion. By issuing equity capital, companies can raise funds without incurring debt, which can improve their financial flexibility and reduce their financial risk. However, issuing equity capital also dilutes the ownership stake of existing shareholders, which can be a concern for some investors.
+
+""")
+    st.markdown("<h1 style='text-align: center;'>Disclosed Reserve</h1>", unsafe_allow_html=True)
+    
+    st.write("""
+    Disclosed reserves are reserves that have been set aside by a company for a specific purpose and are disclosed in the company's financial statements. These reserves are created by appropriating a portion of the company's profits or retained earnings to be used for a specific purpose, such as to cover potential losses, meet regulatory requirements, or fund future projects.
+
+Disclosed reserves can serve several purposes, such as:
+
+Buffer against potential losses: Disclosed reserves can be used to cover potential losses that may arise due to unforeseen events or market conditions. By setting aside a portion of their profits, companies can build a reserve that can be used to offset losses and protect their financial position.
+Regulatory compliance: Disclosed reserves may be required by regulators to ensure that companies have sufficient financial resources to meet their obligations. For example, banks are required to maintain certain levels of reserves to cover potential loan losses.
+Future projects: Disclosed reserves can be used to fund future projects or investments that are expected to generate long-term benefits for the company. By setting aside funds for these purposes, companies can reduce their reliance on external financing and improve their financial flexibility.
+Disclosed reserves are typically disclosed in the notes to a company's financial statements, which provide additional information about the company's financial position and performance. Companies may also be required to disclose the specific purpose for which the reserves have been created, as well as any restrictions on their use.
     """)
 
 elif option== "Nano Lending":

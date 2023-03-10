@@ -1,9 +1,5 @@
 import streamlit as st
 
-st.write("Introduction to Banking Industry, Here you will get all other regulatory informations of Banks and related industry")
-
-import streamlit as st
-
 # Define a list of options
 options = ["BASEL-I", "BASEL-II", "BASEL-III"]
 
@@ -16,7 +12,6 @@ if option == "BASEL-I":
 
     st.markdown("<h2 style='word-wrap: break-word; text-align: center;'>
     
-    This is the sub-header that will be wrapped to fit the page width)
 
     Basel I, also known as the Basel Accord, was developed in 1988 by the Basel Committee on Banking Supervision. The accord aimed to establish a set of international banking standards to ensure banks had enough capital to withstand financial shocks and reduce the risk of bank failures.
     

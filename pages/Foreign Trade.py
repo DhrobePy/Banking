@@ -49,6 +49,26 @@ Following are the most commonly used or known types of letter of credit:-
   
   """)
   
+  st.markdown("<h1 style='text-align: center;'>Payment method of LC</h1>", unsafe_allow_html=True)
+  st.write("""
+  There are several payment methods that can be used in a Letter of Credit (LC) transaction, including:
+
+  1.  Sight Payment: 
+    Under a sight LC, the seller can receive payment as soon as the required documents are presented and verified by the bank. The payment is made immediately, typically within a few days, after the documents are submitted.
+
+  2.  Deferred Payment: 
+    With a deferred payment LC, the seller receives payment at a specified future date, which is usually after a certain period of time, such as 30, 60, or 90 days after the documents are presented.
+  
+  3.  Acceptance: 
+    Under an acceptance LC, the seller can receive payment by accepting a time draft, which is a type of bill of exchange that requires payment at a specified future date. The seller may discount the draft with a bank to receive early payment.
+
+  4.  Negotiation: 
+    The seller may negotiate the LC with the bank, which means that the bank will purchase the documents from the seller and pay them the amount due under the LC. The bank may take a fee or discount the payment.
+The payment method used in a particular LC transaction depends on the agreement between the buyer and seller, as well as the nature of the transaction and the parties' preferences. It is important for all parties involved to understand the payment terms and conditions specified in the LC to ensure that the transaction proceeds smoothly and without any disputes or delays.
+
+  
+  """)
+  
 if option=="Letter of Credit":
   st.markdown("<h1 style='text-align: center;'>Letter of Credit</h1>", unsafe_allow_html=True)
   st.write("""

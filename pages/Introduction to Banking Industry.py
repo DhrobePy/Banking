@@ -84,10 +84,14 @@ In summary, the components of Tier 1 capital in Bangladesh include common equity
 
 The key features of equity capital are as follows:
 
-          No fixed payments: Equity capital does not require any fixed payments to be made to shareholders, unlike debt financing. Instead, shareholders receive returns in the form of dividends or capital appreciation.
-          No maturity date: Equity capital does not have a maturity date, which means that there is no obligation to repay the capital to investors. As long as the company is in operation, the equity capital remains invested in the company.
-          Ownership stake: Shareholders who invest in equity capital become part-owners of the company and have voting rights in important company decisions.
-          Risk and return: Equity capital is considered a higher risk investment than debt financing, but it also has the potential for higher returns if the company performs well.
+          1.No fixed payments: 
+                    Equity capital does not require any fixed payments to be made to shareholders, unlike debt financing. Instead, shareholders receive returns in the form of dividends or capital appreciation.
+          2.No maturity date: 
+                    Equity capital does not have a maturity date, which means that there is no obligation to repay the capital to investors. As long as the company is in operation, the equity capital remains invested in the company.
+          3.Ownership stake: 
+                    Shareholders who invest in equity capital become part-owners of the company and have voting rights in important company decisions.
+          4.Risk and return: 
+          Equity capital is considered a higher risk investment than debt financing, but it also has the potential for higher returns if the company performs well.
           Equity capital is an important component of a company's capital structure and plays a crucial role in its growth and expansion. By issuing equity capital, companies can raise funds without incurring debt, which can improve their financial flexibility and reduce their financial risk. However, issuing equity capital also dilutes the ownership stake of existing shareholders, which can be a concern for some investors.
 
 """)
@@ -98,9 +102,9 @@ The key features of equity capital are as follows:
 
 Disclosed reserves can serve several purposes, such as:
 
-Buffer against potential losses: Disclosed reserves can be used to cover potential losses that may arise due to unforeseen events or market conditions. By setting aside a portion of their profits, companies can build a reserve that can be used to offset losses and protect their financial position.
-Regulatory compliance: Disclosed reserves may be required by regulators to ensure that companies have sufficient financial resources to meet their obligations. For example, banks are required to maintain certain levels of reserves to cover potential loan losses.
-Future projects: Disclosed reserves can be used to fund future projects or investments that are expected to generate long-term benefits for the company. By setting aside funds for these purposes, companies can reduce their reliance on external financing and improve their financial flexibility.
+1. Buffer against potential losses: Disclosed reserves can be used to cover potential losses that may arise due to unforeseen events or market conditions. By setting aside a portion of their profits, companies can build a reserve that can be used to offset losses and protect their financial position.
+2. Regulatory compliance: Disclosed reserves may be required by regulators to ensure that companies have sufficient financial resources to meet their obligations. For example, banks are required to maintain certain levels of reserves to cover potential loan losses.
+3. Future projects: Disclosed reserves can be used to fund future projects or investments that are expected to generate long-term benefits for the company. By setting aside funds for these purposes, companies can reduce their reliance on external financing and improve their financial flexibility.
 Disclosed reserves are typically disclosed in the notes to a company's financial statements, which provide additional information about the company's financial position and performance. Companies may also be required to disclose the specific purpose for which the reserves have been created, as well as any restrictions on their use.
     """)
 
@@ -175,6 +179,89 @@ elif option == "Capital":
     Tier 2 capital: This is a supplementary capital that includes items such as subordinated debt and undisclosed reserves. Examples of Tier 2 capital in Bangladeshi banks include subordinated bonds and term deposits.
     
     Tier 3 capital: This is a short-term capital that can be used to support market risk. Examples of Tier 3 capital in Bangladeshi banks include short-term debt and preference shares.
+""")
+          
+elif option == "Tier-2 Capital":
+    
+    st.markdown("<h1 style='text-align: center;'>Tier-2 Capital</h1>", unsafe_allow_html=True)
+    st.write("""
+    Tier 2 capital is a component of a bank's capital that is considered less reliable than Tier 1 capital but still contributes to its overall capital adequacy. Tier 2 capital includes a range of instruments that can be used to absorb losses in the event of financial distress. Tier 2 capital instruments have longer-term maturities than Tier 1 capital instruments and can be written off or converted to equity in the event of the bank's insolvency.
+
+The following are some examples of Tier 2 capital instruments:
+
+          1. Subordinated debt: 
+          Subordinated debt is a type of debt that ranks below senior debt in the event of a liquidation or bankruptcy. It is issued with longer-term           maturities and higher interest rates than senior debt to compensate for the additional risk. Subordinated debt holders are typically paid only after  senior debt holders have been paid in full.
+
+          Here is an example of subordinated debt:
+
+          Let's say XYZ Bank issues subordinated debt with a face value of $10 million and a maturity of 10 years. The subordinated debt has a coupon rate of 7%, which means that XYZ Bank will pay $700,000 in interest to the subordinated debt holders every year.
+
+          If XYZ Bank faces financial difficulties and is unable to meet its financial obligations, senior debt holders will be paid in full before the subordinated debt holders receive any payments. This means that if XYZ Bank is liquidated and there is only $8 million available to pay creditors, senior debt holders will receive their full $8 million share, while the subordinated debt holders will only receive the remaining $2 million.
+
+          Subordinated debt is an important component of a bank's capital structure and is used to meet regulatory requirements for Tier 2 capital. It allows banks to raise funds at a lower cost than equity capital while still providing some protection to senior debt holders.
+
+          2. Preference shares: 
+          Preference shares, also known as preferred stock or preference stock, are a type of equity security that has priority over common stock in terms of dividend payments and liquidation proceeds.
+
+          Here is an example of preference shares:
+
+          Let's say ABC Company issues 10,000 preference shares at a face value of $100 per share. The preference shares have a fixed dividend rate of 5%, which means that the holders of preference shares will receive a dividend of $5 per share per year. This dividend is paid before any dividend is paid to the common stockholders.
+
+          In the event of liquidation, the holders of preference shares have priority over common stockholders in receiving the proceeds. For example, if ABC Company is liquidated and there are $1 million in assets to be distributed among shareholders, preference shareholders will receive their $1 million share before any amount is paid to common stockholders.
+
+          Preference shares may also have features such as callable or convertible options. Callable preference shares can be redeemed by the issuer before their maturity date. Convertible preference shares can be converted into common shares at a predetermined conversion rate.
+
+          Overall, preference shares are a way for companies to raise capital without issuing debt or diluting the ownership of existing shareholders. They offer a fixed dividend rate and priority in receiving the proceeds in the event of liquidation. However, they also have limitations and risks, such as the potential for fluctuation in dividend payments and the possibility of losing value if interest rates rise.
+
+          3. Undisclosed reserves: 
+          Undisclosed reserves are reserves that are not disclosed on a bank's balance sheet and can be used to absorb losses in the event of financial distress. However, undisclosed reserves are not widely used as a Tier 2 capital instrument due to their lack of transparency.
+
+          Here is an example of undisclosed reserves:
+
+          Let's say XYZ Bank has been profitable for several years and has accumulated a significant amount of profits. However, instead of declaring these profits as dividends or using them to strengthen its disclosed reserves, XYZ Bank decides to keep some of the profits as undisclosed reserves.
+
+          In the event of financial distress, XYZ Bank can use these undisclosed reserves to absorb losses without having to disclose the use of these reserves to the public. This can provide some flexibility to the bank and help it to avoid a situation where investors lose confidence in the bank and cause a further deterioration of its financial condition.
+
+          However, undisclosed reserves are not widely used as a Tier 2 capital instrument due to their lack of transparency. Investors and regulators may view undisclosed reserves with suspicion as they cannot be easily audited or monitored. As a result, banks are generally encouraged to maintain transparent and easily verifiable reserves as a way to maintain trust and confidence in the financial system.
+
+          4. Revaluation reserves: 
+          Revaluation reserves are created when the value of a company's assets is revalued upwards. This is a way for a company to increase its equity without having to issue new shares or retain earnings. Revaluation reserves can be used to absorb losses in the future or to finance future growth opportunities.
+
+          Here is an example of revaluation reserves:
+
+          Let's say ABC Company owns a piece of property that it originally purchased for $1 million. However, the value of the property has increased over time and is now worth $2 million. If ABC Company decides to revalue the property upwards, it can create a revaluation reserve of $1 million.
+
+          This means that ABC Company will now report the value of the property on its balance sheet as $2 million and will also report a revaluation reserve of $1 million. This increases the equity of the company by $1 million without requiring the company to issue new shares or retain earnings.
+
+          In the future, if ABC Company experiences losses, it can use the revaluation reserve to absorb some of these losses. Alternatively, if ABC Company wants to invest in new opportunities, it can use the revaluation reserve to finance these investments.
+
+          Overall, revaluation reserves are a way for companies to increase their equity without diluting the ownership of existing shareholders or relying on retained earnings. However, they are subject to regulatory restrictions and must be created in accordance with accounting standards.
+
+          5. Hybrid securities: 
+          Hybrid securities are a type of financial instrument that have both debt and equity characteristics. They can be a useful way for companies to raise capital while still maintaining some flexibility in their financial structure.
+
+          Here is an example of hybrid securities and their features:
+
+          i.Convertible bonds: Convertible bonds are a type of hybrid security that can be converted into equity shares at a predetermined conversion rate. They offer the potential for investors to receive a fixed income stream from the bond and also benefit from any potential upside in the company's stock price if they choose to convert the bond into equity shares.
+
+                    Features of convertible bonds:
+
+                    i.Convertibility: The bond can be converted into equity shares at a predetermined conversion rate.
+                    ii.Fixed income: The bond offers a fixed income stream to investors until it is converted or reaches maturity.
+                    iii.Callability: The issuer may have the option to call back the bond before it reaches maturity.
+                    iv.Credit risk: The investor is still exposed to credit risk as they would be with any other bond.
+                    v.Equity participation: The investor has the potential to participate in any potential upside in the company's stock price if they choose to convert the bond into equity shares.
+          ii.Preference shares: Preference shares are a type of hybrid security that have priority over common shares in terms of dividend payments and liquidation proceeds. They offer a fixed income stream to investors while still maintaining some equity-like characteristics.
+
+                    Features of preference shares:
+
+                    i.Priority dividend payments: Preference shares have priority over common shares in terms of dividend payments.
+                    ii.Fixed dividend: The dividend rate on preference shares is usually fixed, which means that investors can expect a steady income stream.
+                    iii.No voting rights: Unlike common shares, preference shares usually do not have voting rights.
+                    iv.Callability: The issuer may have the option to call back the preference shares before they reach maturity.
+                    v.Equity-like characteristics: Preference shares have some equity-like characteristics, but they are still considered to be a form of debt.
+          Overall, hybrid securities offer a way for companies to raise capital while still maintaining some flexibility in their financial structure. They have both debt and equity characteristics, which can make them attractive to investors who are looking for a mix of fixed income and equity-like participation. However, they are subject to regulatory restrictions and can be more complex than traditional debt or equity instruments.
+Overall, Tier 2 capital provides additional cushioning to a bank's capital structure and helps to absorb losses in the event of financial distress. However, Tier 2 capital is considered less reliable than Tier 1 capital and is subject to more regulatory restrictions.
     """)
 else:
     st.write("This is BASEL-III")
